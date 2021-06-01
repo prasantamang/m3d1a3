@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+.page-wrapper{
+    width: 100%;
+}
+.flex-container{
+    width: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 5px solid skyblue;
+}
+.box-left{
+    width: 350px;
+    background-color: red;
+    line-height: 625px;
+    text-align: center;
+}
+.box-right{
+    width:985px;
+    line-height: 625px;
+    background-color: blue;
+    text-align: center;
+}
